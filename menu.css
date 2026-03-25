@@ -9,6 +9,7 @@ nav {
 
 a{border: 2px solid brown;
 text-decoration: none;
-margin: 8px;
+margin: 5px;
 color: brown;
-padding: 3px;}
+padding: 3px;
+border-radius: 5px;}
