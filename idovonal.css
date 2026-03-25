@@ -1,13 +1,22 @@
 
 
-/*  az idővonal elrendezése jön a gridekkel */
+/*  az idővonal elrendezése jön a gridekkel 
 
+képek és a szöveg kerülj9ön egymás mellé*/
+
+
+<<<<<<< HEAD
+=======
 nav {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: 20px;
     margin: auto;
     border-radius: 15px;}
+    @media screen and (max-width: 765px) {
+        
+         }
+>>>>>>> 4d9a20bee1050d049d3c00228b8f9b33bc50704c
 
 
 

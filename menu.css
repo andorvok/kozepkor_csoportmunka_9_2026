@@ -1,13 +1,26 @@
 /*  menüpontok és a navigáció formázása */
-    
+p {
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+a {
+  border: 2px solid brown;
+  text-decoration: none;
+  margin: 5px;
+  color: brown;
+  padding: 3px;
+  border-radius: 15px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: moccasin;
+}
 
-a{border: 2px solid brown;
-text-decoration: none;
-margin: 5px;
-color:coral;
-padding: 3px;
-border-radius: 15px;
-font-size: large;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-weight: bold;}
+nav {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 20px;
+    margin: auto;
+    border-radius: 15px;
+padding: 5px;}
