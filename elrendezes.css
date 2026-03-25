@@ -1,1 +1,24 @@
-/*  index.html lerendezése gridekkel, azaz képek és aszöveg kerüljön egymás mellé */
+p{margin: 5px;
+font-family: Arial, Helvetica, sans-serif;}
+
+h1{text-decoration:underline;
+border:solid brown;
+margin:50px;
+padding:5px;
+border-radius: 15px;
+}
+
+h2{text-decoration:underline;
+border:solid brown;
+margin:50px;
+padding:5px;
+border-radius: 15px;
+}
+
+h3{text-decoration:underline;
+border:solid brown;
+padding:5px;
+margin:50px;
+border-radius: 15px;
+}
+a:hover{color: red;}
