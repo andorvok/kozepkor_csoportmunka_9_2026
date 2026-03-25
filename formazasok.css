@@ -22,7 +22,9 @@ body {
 
 p{margin: 5px;
 font-family: Arial, Helvetica, sans-serif;
-border: solid brown;}
+border: dotted brown;
+padding: 15px;
+}
 
 h1{text-decoration:underline;
 border:solid brown;
