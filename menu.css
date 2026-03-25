@@ -1,0 +1,14 @@
+/*  menüpontok és a navigáció formázása */
+nav {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 20px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+a{border: 2px solid brown;
+text-decoration: none;
+margin: 8px;
+color: brown;
+padding: 3px;}
