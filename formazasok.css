@@ -47,3 +47,8 @@ margin:50px;
 border-radius: 15px;
 background-color: moccasin;
 }
+
+a:hover {
+  border-color: red;
+  background-color: white;
+}
