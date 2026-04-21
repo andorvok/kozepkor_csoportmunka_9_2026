@@ -4,12 +4,11 @@
 }
 .elrendezes{
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr 1fr ;
     gap: 10px;
     color: rgb(58, 37, 11);
     background-color: moccasin;
     border: 2px;
-    border-radius: 10px;
     padding: 50px;
     text-align: center;
 }

@@ -13,7 +13,7 @@ main {
 
 img {
   width: 80%;
-  max-width: 350px;
+  max-width: 300px;
 }
 
 body {
@@ -30,21 +30,21 @@ h1{text-decoration:underline;
 border:solid brown;
 margin:50px;
 padding:5px;
-border-radius: 15px;
+
 background-color: moccasin;}
 
 h2{text-decoration:underline;
 border:solid brown;
 margin:50px;
 padding:5px;
-border-radius: 15px;
+
 background-color: moccasin;}
 
 h3{text-decoration:underline;
 border:solid brown;
 padding:5px;
 margin:50px;
-border-radius: 15px;
+
 background-color: moccasin;
 }
 
@@ -52,3 +52,5 @@ a:hover {
   border-color: red;
   background-color: white;
 }
+
+
