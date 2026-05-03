@@ -1,100 +1,87 @@
-
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background: beige;
-
-}
-
-main {
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-}
-
-
 header {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 header img {
-    width: 60%;
-    max-width: 500px;
-    border-radius: 10px;
+  width: 60%;
+  max-width: 500px;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
 }
 
 nav a {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    padding: 8px 15px;
-    border: 2px solid #ff0202bd;
-    border-radius: 5px;
-    background: moccasin;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  padding: 8px 15px;
+  border: 2px solid #ff0202bd;
+  border-radius: 5px;
+  background: moccasin;
 }
 
 nav a:hover {
-    background: #bbb;
+  background-color: white;
 }
 
 .blokkok h2 {
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 20px;
-    margin-top: 40px;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-
 .doboz {
-    display: flex;
-    align-items: stretch;   
-    gap: 25px;
-    border: 3px solid #ccc;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 25px;
+  border: 3px solid #ccc;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 40px;
 }
 
 .doboz .img {
-    width: 400px;           
-    height: auto;
-    display: flex;         
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .doboz .img img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;     
-    border-radius: 6px;
-    border: 2px solid #aaa;
+  width: 100%;
 }
 
 .doboz .szoveg {
-    border: 3px dashed #999;
-    padding: 15px;
-    background: beige;
-    flex: 1;
-    border-radius: 6px;
+  border: 3px dashed #999;
+  padding: 15px;
+  background: beige;
+  border-radius: 6px;
+  box-sizing: border-box;
 }
 
-.doboz .szoveg h3 {
-    margin-top: 0;
-}
 footer {
-    text-align: center;
-    margin-top: 50px;
-    padding: 20px;
-    background: moccasin;
-    border-radius: 10px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  background: moccasin;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .doboz {
+    grid-template-columns: 1fr;
+  }
+
+  .doboz .img {
+    width: 100%;
+  }
+
+  header img {
+    width: 100%;
+  }
 }
